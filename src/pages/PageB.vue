@@ -3,10 +3,10 @@
     <div class="text">
       <span style="font-size: 10vmin">一见如故</span>
       <img width="100" style="border-radius: 50%" :src="images?.haha" @click="haha" />
-      <span style="font-size: 12vmin">“哈哈”x40</span>
-      <span style="font-size: 15vmin">“哈哈哈”x6</span>
+      <span style="font-size: 10vmin">“哈哈”x40</span>
+      <span style="font-size: 12vmin">“哈哈哈”x6</span>
       <span style="font-size: 15vmin">最爱西瓜</span>
-      <img width="200" style="border-radius: 50%" :src="images?.watermelon" @click="lala" />
+      <img width="120" style="border-radius: 50%" :src="images?.watermelon" @click="lala" />
     </div>
     <div class="open">
       <n-icon :size="150" color="#edd88a" :component="LeafOutline" @click="next" />
